@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #222;
+  color: #D4AF37;
+  padding: 1.2rem 2rem;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.navbar-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar-links li {
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.navbar-links li:hover {
+  color: #fff;
+}
+.navbar-cta button {
+  background: #D4AF37;
+  color: #222;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.navbar-cta button:hover {
+  background: #fff;
+  color: #D4AF37;
+}

@@ -1,0 +1,14 @@
+.testimonials-section {
+  background: #181818;
+  color: #D4AF37;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.testimonials-section blockquote {
+  font-style: italic;
+  margin: 1rem auto;
+  max-width: 500px;
+  border-left: 4px solid #D4AF37;
+  padding-left: 1rem;
+  color: #fff;
+}

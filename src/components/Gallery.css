@@ -1,0 +1,26 @@
+.gallery-section {
+  background: #181818;
+  color: #D4AF37;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+.gallery-images {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.gallery-images img {
+  border: 2px solid #D4AF37;
+  border-radius: 8px;
+  width: 384px;
+  height: 288px;
+  object-fit: cover;
+  background: #333;
+  transition: transform 0.3s ease;
+}
+
+.gallery-images img:hover {
+  transform: scale(1.05);
+}

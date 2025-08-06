@@ -1,0 +1,15 @@
+.footer-section {
+  background: #222;
+  color: #D4AF37;
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+}
+.footer-section .socials a {
+  color: #D4AF37;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.footer-section .socials a:hover {
+  color: #fff;
+}

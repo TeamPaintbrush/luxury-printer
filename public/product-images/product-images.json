@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HP LaserJet Pro",
+    "filename": "hp-laserjet-pro.jpg"
+  },
+  {
+    "name": "Canon PIXMA Inkjet",
+    "filename": "canon-pixma-inkjet.jpg"
+  },
+  {
+    "name": "Brother HL-L2350DW",
+    "filename": "brother-hl-l2350dw.jpg"
+  },
+  {
+    "name": "HP 67XL Ink Cartridge",
+    "filename": "hp-67xl-ink.jpg"
+  },
+  {
+    "name": "Canon 281 Ink",
+    "filename": "canon-281-ink.jpg"
+  },
+  {
+    "name": "Epson 502 Ink",
+    "filename": "epson-502-ink.jpg"
+  },
+  {
+    "name": "Glossy Photo Paper",
+    "filename": "glossy-photo-paper.jpg"
+  },
+  {
+    "name": "Multipurpose Copy Paper",
+    "filename": "multipurpose-copy-paper.jpg"
+  },
+  {
+    "name": "Label Sheets",
+    "filename": "label-sheets.jpg"
+  }
+]

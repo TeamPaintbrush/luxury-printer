@@ -1,0 +1,32 @@
+.filter-section {
+  background: #181818;
+  color: #D4AF37;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+.filter-form {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.filter-form select, .filter-form button {
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  border: 1px solid #D4AF37;
+  background: #222;
+  color: #D4AF37;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.filter-form button {
+  background: #D4AF37;
+  color: #222;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+.filter-form button:hover {
+  background: #fff;
+  color: #D4AF37;
+}
