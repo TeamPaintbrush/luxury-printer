@@ -16,6 +16,15 @@ const FeaturedProducts = () => {
 
   const formatPrice = (price) => `$${price.toFixed(2)}`;
 
+  const handleViewDetails = (productId) => {
+    // Scroll to top before navigation
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    // Small delay to allow scroll to start, then navigate
+    setTimeout(() => {
+      navigate(`/product/${productId}`);
+    }, 100);
+  };
+
   const renderStars = (rating) => {
     const stars = [];
     const fullStars = Math.floor(rating);
@@ -114,7 +123,7 @@ const FeaturedProducts = () => {
               <div className="product-actions">
                 <button 
                   className="view-details-btn luxury-button gold-ripple"
-                  onClick={() => navigate(`/product/${product.id}`)}
+                  onClick={() => handleViewDetails(product.id)}
                 >
                   📋 View Details
                 </button>
