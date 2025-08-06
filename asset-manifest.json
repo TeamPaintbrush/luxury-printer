@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/luxury-printer/static/css/main.09fc310f.css",
-    "main.js": "/luxury-printer/static/js/main.393136dd.js",
+    "main.css": "/luxury-printer/static/css/main.2934e1ac.css",
+    "main.js": "/luxury-printer/static/js/main.e6a26e82.js",
     "static/js/453.d88c47b1.chunk.js": "/luxury-printer/static/js/453.d88c47b1.chunk.js",
     "index.html": "/luxury-printer/index.html",
-    "main.09fc310f.css.map": "/luxury-printer/static/css/main.09fc310f.css.map",
-    "main.393136dd.js.map": "/luxury-printer/static/js/main.393136dd.js.map",
+    "main.2934e1ac.css.map": "/luxury-printer/static/css/main.2934e1ac.css.map",
+    "main.e6a26e82.js.map": "/luxury-printer/static/js/main.e6a26e82.js.map",
     "453.d88c47b1.chunk.js.map": "/luxury-printer/static/js/453.d88c47b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.09fc310f.css",
-    "static/js/main.393136dd.js"
+    "static/css/main.2934e1ac.css",
+    "static/js/main.e6a26e82.js"
   ]
 }
