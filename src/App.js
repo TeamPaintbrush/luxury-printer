@@ -44,7 +44,7 @@ function App() {
   return (
     <ProductProvider>
       <CartProvider>
-        <Router>
+        <Router basename="/luxury-printer">
           <div className="App">
             <ParticleBackground />
             <Navbar />
