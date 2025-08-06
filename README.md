@@ -93,6 +93,50 @@ The website is fully responsive and optimized for:
 
 ## 🚀 Deployment
 
+### Option 1: Netlify (Recommended - Easiest)
+
+1. **Visit [Netlify](https://www.netlify.com/)** and sign up with your GitHub account
+2. **Connect your repository**:
+   - Click "New site from Git"
+   - Choose GitHub and authorize Netlify
+   - Select the `TeamPaintbrush/luxury-printer` repository
+3. **Configure build settings**:
+   - Build command: `npm run build`
+   - Publish directory: `build`
+   - Click "Deploy site"
+4. **Your site will be live** at a URL like `https://amazing-site-name.netlify.app`
+5. **Optional**: Set up a custom domain in Netlify settings
+
+### Option 2: Vercel (Great for React)
+
+1. **Visit [Vercel](https://vercel.com/)** and sign up with GitHub
+2. **Import your repository**:
+   - Click "New Project"
+   - Import `TeamPaintbrush/luxury-printer`
+   - Vercel auto-detects React settings
+3. **Deploy**: Click "Deploy" - it handles everything automatically
+4. **Live site** at `https://your-project.vercel.app`
+
+### Option 3: GitHub Pages (Free hosting)
+
+1. **Build the project**:
+   ```bash
+   npm install -g gh-pages
+   npm run build
+   npx gh-pages -d build
+   ```
+2. **Enable GitHub Pages** in repository settings
+3. **Live at**: `https://teampaintbrush.github.io/luxury-printer`
+
+### Option 4: Manual Build & Host
+
+1. **Create production build**:
+   ```bash
+   npm run build
+   ```
+2. **Upload the `build` folder** to any web hosting service
+3. **Point domain** to the uploaded files
+
 The project can be deployed to various platforms:
 - **Netlify**: Connect your GitHub repo for automatic deployments
 - **Vercel**: Perfect for React applications
