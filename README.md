@@ -117,16 +117,35 @@ The website is fully responsive and optimized for:
 3. **Deploy**: Click "Deploy" - it handles everything automatically
 4. **Live site** at `https://your-project.vercel.app`
 
-### Option 3: GitHub Pages (Free hosting)
+### Option 3: GitHub Pages (Free hosting) ✅ **DEPLOYED**
 
-1. **Build the project**:
+**🌐 LIVE SITE: https://teampaintbrush.github.io/luxury-printer**
+
+#### Quick Deploy (Already Set Up):
+```bash
+npm run deploy
+```
+
+#### Initial Setup (Already Done):
+1. **Install gh-pages**:
    ```bash
-   npm install -g gh-pages
-   npm run build
-   npx gh-pages -d build
+   npm install --save-dev gh-pages
    ```
-2. **Enable GitHub Pages** in repository settings
-3. **Live at**: `https://teampaintbrush.github.io/luxury-printer`
+2. **Deploy the project**:
+   ```bash
+   npm run deploy
+   ```
+3. **Enable GitHub Pages**:
+   - Go to GitHub repository settings
+   - Scroll to "Pages" section
+   - Source should be set to "Deploy from a branch"
+   - Branch should be "gh-pages" 
+4. **Live at**: `https://teampaintbrush.github.io/luxury-printer`
+
+#### Troubleshooting:
+- **Site not loading?** Wait 5-10 minutes after first deployment
+- **404 Error?** Check GitHub repository → Settings → Pages
+- **Need to redeploy?** Run `npm run deploy` again
 
 ### Option 4: Manual Build & Host
 
